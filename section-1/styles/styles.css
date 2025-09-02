@@ -1,0 +1,14 @@
+body {
+  margin: 50px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+#learning-statement {
+  color: rgb(130, 0, 0);
+  font-weight: bold;
+  font-size: 50px;
+}
