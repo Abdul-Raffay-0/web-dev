@@ -1,0 +1,39 @@
+ul {
+  font-size: 28px;
+  list-style: none;
+  font-family: "fira-sans";
+  font-weight: 500;
+  color: rgb(9, 29, 2);
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 46px;
+  font-weight: 450;
+  background-color: rgb(107, 151, 4);
+  color: aliceblue;
+  border-radius: 13px;
+  display: inline;
+  padding: 15px;
+  margin-top: 5px;
+}
+a {
+  color: aliceblue;
+}
+a:hover {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: rgb(28, 36, 10);
+}
+
+li {
+  margin: 10px;
+  background-color: rgb(190, 148, 92);
+  border-radius: 12px;
+  font-size: 34px;
+  padding: 9px;
+  display: block;
+}
