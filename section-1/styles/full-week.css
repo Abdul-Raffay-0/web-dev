@@ -2,38 +2,64 @@ ul {
   font-size: 28px;
   list-style: none;
   font-family: "fira-sans";
-  font-weight: 500;
+  font-weight: bold;
   color: rgb(9, 29, 2);
+  margin: 50px auto;
+  width: 1000px;
+  padding: 0;
 }
 
 h1 {
   font-size: 60px;
 }
 
+h2 {
+  font-family: "Oswald";
+}
+
 p {
-  font-size: 46px;
-  font-weight: 450;
   background-color: rgb(107, 151, 4);
   color: aliceblue;
   border-radius: 13px;
-  display: inline;
   padding: 15px;
-  margin-top: 5px;
+  margin-top: 70px;
 }
 a {
+  font-size: 46px;
+  font-weight: 450;
   color: aliceblue;
+  margin: auto;
+  background-color: rgb(107, 151, 4);
+  padding: 22px;
+  border-radius: 16px;
+  display: inline;
 }
+
 a:hover {
   text-decoration: none;
   color: aliceblue;
-  background-color: rgb(28, 36, 10);
+  background-color: rgb(79, 114, 0);
 }
 
 li {
-  margin: 10px;
   background-color: rgb(190, 148, 92);
   border-radius: 12px;
   font-size: 34px;
   padding: 9px;
   display: block;
+  margin: 40px;
+}
+
+li p {
+  background-color: rgb(190, 148, 92);
+  font-size: 40px;
+  border-radius: 0;
+  margin: 40px;
+  color: rgb(9, 29, 2);
+  padding: 0px;
+  font-weight: 400;
+}
+
+ul h2 {
+  color: rgb(2, 3, 2);
 }
