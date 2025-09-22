@@ -2,11 +2,12 @@ ul {
   font-size: 28px;
   list-style: none;
   font-family: "fira-sans";
-  font-weight: bold;
+  font-weight: 600;
   color: rgb(9, 29, 2);
   margin: 50px auto;
-  width: 1000px;
+  width: 850px;
   padding: 0;
+  height: 890px;
 }
 
 h1 {
@@ -42,16 +43,17 @@ a:hover {
 }
 
 li {
-  background-color: rgb(190, 148, 92);
+  background-color: rgb(229 179 113);
   border-radius: 12px;
   font-size: 34px;
   padding: 9px;
   display: block;
-  margin: 40px;
+  margin: 15px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 li p {
-  background-color: rgb(190, 148, 92);
+  background-color: rgb(229 179 113);
   font-size: 40px;
   border-radius: 0;
   margin: 40px;
@@ -62,4 +64,16 @@ li p {
 
 ul h2 {
   color: rgb(2, 3, 2);
+  font-weight: 600;
+}
+
+.important-ones {
+  background-color: rgb(161, 126, 80);
+  font-weight: 500;
+}
+
+.important-ones-oswald {
+  background-color: rgb(161, 126, 80);
+  font-weight: 700;
+  text-decoration: underline;
 }

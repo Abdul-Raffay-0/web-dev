@@ -2,13 +2,45 @@ body {
   margin: 50px;
 }
 img {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  margin-bottom: -155px;
+  border: 8px solid black;
 }
 
 #learning-statement {
-  color: rgb(130, 0, 0);
+  color: rgb(255, 167, 167);
   font-weight: bold;
   font-size: 50px;
+}
+
+main {
+  background-color: rgb(141, 44, 31);
+  padding: 59px;
+  margin-top: 60px;
+  color: rgb(255, 167, 167);
+  border-radius: 14px;
+  border: 8px solid black;
+}
+
+h1 {
+  font-size: 60px;
+  padding-bottom: 50px;
+}
+p {
+  font-size: 40px;
+  color: rgb(255, 167, 167);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 450;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(255, 167, 167);
+}
+
+span {
+  color: rgb(226, 97, 97);
 }
