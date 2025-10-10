@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+ul a {
+  font-size: 20px;
+}
+
 .logo a {
   font-size: 52px;
   text-decoration: none;
@@ -43,4 +47,28 @@ header {
 
 a:hover {
   font-weight: 700;
+}
+
+.hero-section {
+  background-color: rgb(107, 156, 156);
+  height: 470px;
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/places/ocean.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;
+  background-color: rgb(189, 189, 189);
+  font-size: 20px;
+}
+
+.hero-text a {
+  font-size: 20px;
 }
