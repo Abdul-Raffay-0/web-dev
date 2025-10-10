@@ -43,6 +43,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: aqua;
+  position: relative;
 }
 
 a:hover {
@@ -60,6 +61,7 @@ a:hover {
   text-align: center;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .hero-text {
@@ -67,11 +69,12 @@ a:hover {
   flex-direction: column;
   height: 250px;
   justify-content: center;
-  background-color: rgba(97, 91, 91, 0.7);
+  background-color: rgba(43, 41, 41, 0.7);
   font-size: 20px;
   border-radius: 22px;
   width: 500px;
   text-align: center;
+  color: aliceblue;
 }
 
 .hero-text a {
@@ -84,4 +87,19 @@ a:hover {
   margin-left: 100px;
   border-radius: 6px;
   padding: 9px;
+  position: relative;
+  top: 20px;
+}
+
+.hero-text h1
+{
+  padding-bottom: 20px;
+  margin: 0px;
+}
+
+.hero-text p{
+  
+  padding-bottom: 20px;
+  margin: 0px;
+}
 }
