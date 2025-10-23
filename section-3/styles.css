@@ -8,7 +8,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
+  position: fixed;
   width: 100%;
   box-sizing: border-box;
 }
@@ -35,6 +35,7 @@ ul a {
   color: rgb(159, 250, 12);
   font-weight: 600;
   padding: 10px;
+  text-shadow: -1px 1px, 1px rgb(58, 0, 0);
 }
 
 ul a:hover {
@@ -107,4 +108,17 @@ a:hover {
 .hero-text p {
   padding-bottom: 20px;
   margin: 0px;
+}
+
+.lower-section {
+  background-color: aquamarine;
+  height: 350px;
+  padding: 1px;
+  margin: 0px;
+  text-align: center;
+  display: flex;
+}
+
+.lower-section h1 {
+  text-transform: uppercase;
 }
