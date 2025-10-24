@@ -112,13 +112,37 @@ a:hover {
 
 .lower-section {
   background-color: aquamarine;
-  height: 350px;
-  padding: 1px;
+  height: 500px;
+  padding: 0px;
   margin: 0px;
   text-align: center;
-  display: flex;
+
+  font-size: 34px;
 }
 
-.lower-section h1 {
+.lower-section h2 {
   text-transform: uppercase;
+  padding-top: 30px;
+  margin: 0px;
+  font-size: 35px;
+  height: 31px;
+  width: 100%;
+}
+
+.lower-section ul {
+  display: flex;
+  font-size: 19px;
+  width: 90%;
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 0px;
+  padding-top: 70px;
+}
+
+.lower-section ul li img {
+  width: 350px;
+  height: 250px;
+  border-radius: 30px;
 }
