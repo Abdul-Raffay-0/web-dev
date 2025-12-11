@@ -1,0 +1,46 @@
+body {
+  font-family: "Oleo-Script";
+  background-color: rgb(53, 37, 37);
+  color: aliceblue;
+}
+ul {
+  list-style: none;
+}
+
+img {
+  width: 350px;
+  height: 250px;
+}
+
+.main-card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 260px;
+}
+
+a {
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: rgb(201, 193, 193);
+  border-radius: 4px;
+  width: 55px;
+  height: 30px;
+  align-self: self-end;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 95%;
+}
