@@ -1,0 +1,19 @@
+body {
+  background-color: aliceblue;
+  font-family: "Oleo-Script";
+}
+
+img {
+  width: 350px;
+  height: 250px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background-color: beige;
+  display: grid;
+  grid-column: 100px 50px;
+}
